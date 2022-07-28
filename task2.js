@@ -12,22 +12,22 @@ var timeRecord = document.querySelector(".timeRecord");
 var compulsory = document.querySelector(".compulsory");
 
 // dark mode
-mode.addEventListener("change",function(){
-    var switchData=document.querySelector(".dark");
-    var element = document.body;
-    var mainTable=document.querySelector("thead");
-    if(this.checked==true){
-    element.classList.add("dark-mode");
-    vaccine.classList.add("imgDark");
-    mainTable.classList.add("table-light") ;
-    }
-    else{
-      element.classList.remove("dark-mode");
-      vaccine.classList.remove("imgDark");
-      mainTable.classList.remove("table-light") ;
+// mode.addEventListener("change",function(){
+//     var switchData=document.querySelector(".dark");
+//     var element = document.body;
+//     var mainTable=document.querySelector("thead");
+//     if(this.checked==true){
+//     element.classList.add("dark-mode");
+//     vaccine.classList.add("imgDark");
+//     mainTable.classList.add("table-light") ;
+//     }
+//     else{
+//       element.classList.remove("dark-mode");
+//       vaccine.classList.remove("imgDark");
+//       mainTable.classList.remove("table-light") ;
     
-    }
-  })
+//     }
+//   })
 
 // to check whether the task is compulsory or not
 compulsory.addEventListener("change", function () {
