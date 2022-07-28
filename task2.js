@@ -30,7 +30,6 @@ addTaskBtn.addEventListener("click", function () {
     // data is stored in local storage
     inputValue = addTaskInput.value;
     if (inputValue == 0 || dateInput.value == 0 || timeInput.value == 0) {
-        alert("Enter the values");
          Swal.fire({
                 title: 'Enter the values',
                 icon: 'error',
